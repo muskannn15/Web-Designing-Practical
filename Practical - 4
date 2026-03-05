@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Timetable</title>
+
+<style>
+body{
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+h2{
+    text-align:center;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 80%;
+    background-color: white;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #6c8cd5;
+    color: white;
+}
+
+caption{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.break{
+    background-color: #ffd966;
+    font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<h2>Class Timetable</h2>
+
+<table>
+
+<caption>BCA Semester Timetable</caption>
+
+<thead>
+<tr>
+<th>Day</th>
+<th>9:00 - 10:00</th>
+<th>10:00 - 11:00</th>
+<th>11:00 - 12:00</th>
+<th>12:00 - 1:00</th>
+<th>1:00 - 2:00</th>
+<th>2:00 - 3:00</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Monday</td>
+<td>DBMS</td>
+<td>DBMS</td>
+<td>CN</td>
+<td rowspan="5" class="break">LUNCH</td>
+<td colspan="2">DBMS Lab</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>Python</td>
+<td>Python</td>
+<td>Maths</td>
+<td>CN</td>
+<td>Sports</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td colspan="2">Python Lab</td>
+<td>CN</td>
+<td>DBMS</td>
+<td>Library</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+<td>Maths</td>
+<td>CN</td>
+<td>Python</td>
+<td colspan="2">Project Work</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>DBMS</td>
+<td>Maths</td>
+<td>Python</td>
+<td>CN</td>
+<td>Seminar</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="7">Note: Lab sessions are 2 hours.</td>
+</tr>
+</tfoot>
+
+</table>
+
+</body>
+</html>
