@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume</title>
+
+<style>
+body{
+    font-family: Calibri, sans-serif;
+    margin:20px;
+    background-color:#dbd6fa;
+}
+
+.resume{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h1{
+    color:#170b40;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th,td{
+    padding:8px;
+    border:1px solid black;
+}
+
+a{
+    text-decoration:none;
+    color:#0367d2;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    display:block;
+    margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="resume">
+
+<!-- Profile Image -->
+<img src="https://t4.ftcdn.net/jpg/11/57/72/95/360_F_1157729568_bzWI9dV4PoA1URwoIwgqeXO50BhQ3kfR.jpg" alt="Profile Photo">
+
+<h1>Muskan Shah</h1>
+<h3>Currently pursuing B.Tech in CSE (Artificial Intelligence & Machine Learning)</h3>
+
+<p><strong>Email:</strong> <a href="mailto:muskans.ml25@sbjit.edu.in">muskans.ml25@sbjit.edu.in</a></p>
+<p><strong>Phone:</strong> 93222****</p>
+
+<hr>
+
+<h2>About Me</h2>
+<p>
+First-year B.Tech student in Computer Science (AI & ML) with strong interest in
+Artificial Intelligence, data-driven technologies, and problem-solving.
+Detail-oriented and analytical with a creative mindset from experience in
+photo and video editing.
+</p>
+
+<h2>Education</h2>
+
+<table>
+<tr>
+<th>Degree</th>
+<th>Specialization</th>
+<th>Institution</th>
+<th>University</th>
+<th>Year</th>
+<th>Score</th>
+</tr>
+
+<tr>
+<td>B.Tech</td>
+<td>CSE (AI & ML)</td>
+<td>S.B. Jain Institute of Technology, Management & Research</td>
+<td>RTMNU</td>
+<td>2025 - Present</td>
+<td>---</td>
+</tr>
+
+<tr>
+<td>HSC</td>
+<td>Science (PCMB)</td>
+<td>St josephs convent jr college</td>
+<td>Maharashtra State Board</td>
+<td>2025</td>
+<td>64%</td>
+</tr>
+
+<tr>
+<td>SSC</td>
+<td>-</td>
+<td>S.F.S High School</td>
+<td>Maharashtra State Board</td>
+<td>2023</td>
+<td>77.4%</td>
+</tr>
+</table>
+
+<h2>Technical Skills</h2>
+<ul>
+<li>C Programming</li>
+<li>C++ (Basic)</li>
+<li>Web Designing (Basic)</li>
+<li>MS Office (Word, PowerPoint, Excel)</li>
+</ul>
+
+<h2>Creative Skills</h2>
+<ul>
+<li>Photo Editing</li>
+<li>Drawing / Sketching</li>
+<li>Video Editing</li>
+</ul>
+
+<h2>Soft Skills</h2>
+<ul>
+<li>Quick Learner</li>
+<li>Teamwork & Communication</li>
+<li>Problem-Solving</li>
+<li>Analytical Thinking</li>
+</ul>
+
+<h2>Experience</h2>
+<ul>
+<li>Mini C programming projects</li>
+<li>Participation in college Tech events</li>
+<li>Worked with clients to deliver visually appealing digital content</li>
+<li>Participation in National Level Hackathon</li>
+</ul>
+
+</div>
+
+</body>
+</html>
