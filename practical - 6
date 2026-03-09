@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Simple HTML Form</title>
+    <title>Seminar Registration Form</title>
 </head>
 <body>
 
-<h2>User Form</h2>
+<h2>Seminar Registration Form</h2>
 
 <form>
 
-    <!-- Text Input -->
-   
-    <label for="name">First Name:</label>
+    <!-- Text Inputs -->
+     <label for="name">First Name:</label>
     <input type="text" id="name" name="name" value = "Muskan"><br><br>
      <label for="name">Last Name:</label>
     <input type="text" id="name" name="name" value = "Shah"><br><br>
+    <label>Email:</label>
+    <input type="text" name="email" value = "muskans.ml25@sbjit.eduin"><br><br>
+
+    <label>College Name:</label>
+    <input type="text" name="college" value = "S.B jain institute of Technology and Management and Reserach"><br><br>
 
     <!-- Radio Buttons -->
     <label>Gender:</label><br>
-    <input type="radio" id="male" name="gender" value="Male">
-    <label for="male">Male</label><br>
-
-    <input type="radio" id="female" name="gender" value="Female">
-    <label for="female">Female</label><br><br>
+    <input type="radio" name="gender" value="Male"> Male<br>
+    <input type="radio" name="gender" value="Female"> Female<br>
+    <input type="radio" name="gender" value="Other"> Other<br><br>
 
     <!-- Checkboxes -->
-    <label>Hobbies:</label><br>
-    <input type="checkbox" id="reading" name="hobby" value="Reading">
-    <label for="reading">Reading</label><br>
+    <label>Select Seminar Topics:</label><br>
+    <input type="checkbox" name="topic" value="AI"> Artificial Intelligence<br>
+    <input type="checkbox" name="topic" value="Cybersecurity"> Cybersecurity<br>
+    <input type="checkbox" name="topic" value="WebDev"> Web Development<br>
+    <input type="checkbox" name="topic" value="DataScience"> Data Science<br><br>
 
-    <input type="checkbox" id="sports" name="hobby" value="Sports">
-    <label for="sports">Sports</label><br>
-
-    <input type="checkbox" id="music" name="hobby" value="Music">
-    <label for="music">Music</label><br><br>
-
+    
     <!-- Submit Button -->
-    <input type="submit" value="Submit">
-
-    <!-- Normal Button -->
-    <button type="button">Click Me</button>
+    <input type="submit" value="Register">
 
 </form>
 
